@@ -15,7 +15,7 @@ As I approach the culmination of my academic journey, I am eager to bring my ski
 
 Let's connect and explore the possibilities of working together to shape the future of AI! 🚀
  my linkedin : https://www.linkedin.com/in/amjadf?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
- my E-mail :amjadfalthobiti@gmail.com
+        my E-mail :amjadfalthobiti@gmail.com
 
 
 <!--
