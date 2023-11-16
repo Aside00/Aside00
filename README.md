@@ -14,6 +14,8 @@ My GitHub account is not just a repository of individual efforts but also a test
 As I approach the culmination of my academic journey, I am eager to bring my skills and passion to a dynamic AI-focused role. My GitHub profile is a living portfolio that not only showcases my technical expertise but also reflects my dedication to making a significant impact in the field of artificial intelligence and data science.
 
 Let's connect and explore the possibilities of working together to shape the future of AI! 🚀
+ my linkedin : https://www.linkedin.com/in/amjadf?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+ my E-mail :amjadfalthobiti@gmail.com
 
 
 <!--
