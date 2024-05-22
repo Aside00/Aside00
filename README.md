@@ -15,8 +15,8 @@
 
 <h3 align="left">Projects:</h3>
 <ul>
-  <li>🌟 <strong>Saudi Swift SAT</strong>: Developed a smart satellite with AI algorithms for environmental monitoring and blockchain for secure data transfer.</li>
-  <li>🌟 <strong>Graduation Project:</strong> Integrating an Intelligent CubeSat with Blockchain Technology for Sustainable Environmental Monitoring. Worked on training the YOLO algorithm to detect oil leaks, enhancing data quality to improve model performance.</li>
+  <li>🌟 <strong>Saudi Swift SAT(Graduation Project)</strong>: Developed a smart satellite with AI algorithms for environmental monitoring and blockchain for secure data transfer.</li>
+  
   <li>🌟 <strong>Smart Mirror:</strong> Built a mirror that displays real-time weather, news, and calendar information.</li>
   <li>🌟 <strong>Accident Detection System:</strong> Developed an AI-based system to detect accidents using computer vision techniques to enhance traffic safety.</li>
 </ul>
