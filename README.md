@@ -1,47 +1,58 @@
-<h2 align="center">Hi 👋, I'm Amjad Fahad Althobati</h2>
-<h4 align="center">🔧Computer Engineer | 📊Data scientist | 🧠Artificial Intelligence</h4>
+<h2 align="center">Hi 👋, I'm Amjad Fahad Althobiti</h2>
+<h4 align="center">🎓 Fresh Computer Engineering Graduate | 🤖 AI & Data Enthusiast | ☁️ Passionate about Cloud & MLOps</h4>
 
-<h3 align="left">Education:</h3>
-<ul>
-  <li>🎓 Bachelor of Science in Computer Engineering - Taif University, Expected Graduation: May 2024</li>
- </ul>
+---
 
-<h3 align="left">Experience:</h3>
-<ul>
-  <li>👨‍🔧 Artificial Intelligence Intern at KAUST Academy, Thuwal, Saudi Arabia</li>
-  <li>💡Head of the Project Management</li>
-  <li>🌐 Forward Learners Program at McKinsey & Company</li>
-</ul>
+### 👩‍🎓 About Me
+- Fresh graduate in **Computer Engineering (Honors), Taif University – 2024**  
+- Passionate about **Artificial Intelligence, Machine Learning, and Cloud Containers**  
+- Currently learning and building projects with **Docker, Kubernetes, TensorFlow, and PyTorch**  
+- Interested in contributing to **AI for sustainability and innovation**  
 
-<h3 align="left">Projects:</h3>
-<ul>
-  <li>🌟 <strong>Saudi Swift SAT(Graduation Project)</strong>: Developed a smart satellite with AI algorithms for environmental monitoring and blockchain for secure data transfer.</li>
-  
-  <li>🌟 <strong>Smart Mirror:</strong> Built a mirror that displays real-time weather, news, and calendar information.</li>
-  <li>🌟 <strong>Accident Detection System:</strong> Developed an AI-based system to detect accidents using computer vision techniques to enhance traffic safety.</li>
-</ul>
+---
 
-<h3 align="left">Certificates:</h3>
-<ul>
-  <li>📜 Data Science Orientation - Authorized by IBM</li>
-  <li>📜 Machine Learning for All - University of London</li>
-  <li>📜 Data Science Methodology - Authorized by IBM</li>
-  <li>📜 Introduction to Artificial Intelligence - KAUST</li>
-  <li>📜 Tools for Data Science V2 - Authorized by IBM</li>
-</ul>
+### 🛠️ Skills
+- **Languages:** Python, SQL, C++, MATLAB  
+- **Frameworks:** TensorFlow, PyTorch, Scikit-learn, OpenCV  
+- **Tools:** Docker, Kubernetes, Git, Power BI, Tableau, Google Colab  
+- **Databases:** MySQL, PostgreSQL  
 
-<h3 align="left">Languages and Tools:</h3>
-<table>
-  <tr>
-    <td align="center"><a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a></td>
-    <td align="center"><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a></td>
-    <td align="center"><a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a></td>
-    <td align="center"><a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="powerbi" width="40" height="40"/> </a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a></td>
-    <td align="center"><a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a></td>
-    <td align="center"><a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a></td>
-    <td align="center"><a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a></td>
-  </tr>
-</table>
+---
+
+### 🌟 Projects
+- **Saudi Swift SAT (Graduation Project)** 🌊  
+  AI + YOLO + Blockchain for oil spill detection using satellite SAR images.  
+  *Achieved >90% accuracy and reduced false positives by 40%.*  
+
+- **Sehap App (Emergency Response)** 🚑  
+  AI-based system for accident detection and severity assessment.  
+
+- **Smart Mirror** 🪞  
+  Interactive mirror displaying real-time weather, news, and calendar.  
+
+- **Mini RAG for Document Q&A** 📄  
+  Lightweight Retrieval-Augmented Generation tool for answering questions from documents.  
+
+---
+
+### 📜 Certificates
+- IBM Data Science Orientation  
+- IBM Data Science Methodology  
+- Machine Learning for All – University of London  
+- Introduction to Artificial Intelligence – KAUST  
+- Docker Basics – KodeKloud  
+- McKinsey Forward Leader Program  
+
+---
+
+### 📈 GitHub Stats
+![Amjad's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aside00&show_icons=true&theme=dark)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aside00&layout=compact&theme=dark)  
+
+---
+
+### 📫 Connect with Me
+- [LinkedIn](https://linkedin.com/in/amjadf)  
+- [GitHub](https://github.com/Aside00)  
+- [Credly Badges](https://www.credly.com/users/amjad-amjadct6/badges)  
+- 📧 amjadfalthobiti@gmail.com  
