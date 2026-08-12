@@ -1,9 +1,6 @@
-<h2 align="center">Hi 👋, I'm Amjad Fahad Althobiti</h2>
 
 
----
-
-### 📫 Connect with Me
+###  Connect with Me
 - [LinkedIn](https://linkedin.com/in/amjadf)  
 - [GitHub](https://github.com/Aside00)  
 - [Credly Badges](https://www.credly.com/users/amjad-amjadct6/badges)  
