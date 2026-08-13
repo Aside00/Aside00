@@ -48,9 +48,8 @@ If adding a second GPU was completely free, our efficiency score would be 1.0 (1
 | peak VRAM per GPU | died at 13.72 GiB allocated | **14.4 GB, both ranks** |
 
 
-the three things that got sharded across the GPUs are the weights and gradients and the optimizer states.
-Each GPU only keeps its own small slice of these three components instead of storing the full model stateand this reduced the total memory footprint per GPU from 22.6 GB down to about 11.3 GB.
-
+the model weights, gradients, and optimizer states are sharded across GPUs, reducing the estimated model state from 22.6 GB to 11.3 GB per GPU. However, the actual measured peak memory reached 14.4 GB during execution. 
+The extra 3.1 GB comes from temporary activations and the full block weights gathered dynamically during computation.
 
 ## NCCL
 
@@ -63,7 +62,8 @@ Each GPU only keeps its own small slice of these three components instead of sto
 | **256 MB** | 39.95 ms | 6.7 GB/s | **6.7 GB/s** |
 | **512 MB** | 80.31 ms | 6.7 GB/s | **6.7 GB/s** |
 
-The measured speed was 6.7 GB/s, which is 134 times slower than NVLink and this gap happens because the Kaggle T4 GPUs do not use NVLink connection, forcing NCCL to route traffic over a much slower PCIe bus. Additionally, data often bounces through host memory, and the all-reduce algorithm moves every piece of data across the link twice.
+The measured speed was 6.7 GB/s, which is 134 times slower than NVLink because the Kaggle T4 GPUs use PCIe connection and host memory routing.
+Transfers also take twice as long because the all-reduce algorithm moves every piece of data across the link twice. 
 
 ## TP
 
