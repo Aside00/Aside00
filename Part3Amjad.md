@@ -2,15 +2,14 @@
 
 ## Kimi K1.5
 
-**Source:** Moonshot AI, "Kimi k1.5 Technical Report", arXiv:2501.12599 (Jan 2025). <https://arxiv.org/abs/2501.12599>
+**Source:** Moonshot AI, "Kimi k1.5 Technical Report" <https://arxiv.org/abs/2501.12599>
 
-Everything below comes from that technical report. Where I add a comment of my own, I mark it as mine.
 
 ### Model
 
 | Item | Value |
 |---|---|
-| Total parameters | Undisclosed (LLM backbone built on MoE architecture) |
+| Total parameters | Undisclosed LLM backbone built on MoE architecture |
 | Architecture | MoE (Mixture of Experts) with Multi-Head Latent Attention (MLA) |
 | Context length | 128K tokens natively, expandable for long-context reasoning |
 | Primary focus | Multimodal reasoning, long-context understanding, and Reinforcement Learning (RL) |
@@ -24,7 +23,7 @@ Everything below comes from that technical report. Where I add a comment of my o
 
 ### Framework
 
-**Custom Distributed Training Framework**, developed in-house by Moonshot AI to handle both long-context pre-training and large-scale Reinforcement Learning (RL) workloads efficiently.
+**Custom Distributed Training Framework**, developed by Moonshot AI to handle both long-context pre-training and large-scale Reinforcement Learning (RL) workloads efficiently.
 
 ### Parallelism Plan
 
@@ -44,7 +43,7 @@ Everything below comes from that technical report. Where I add a comment of my o
 *   Numerically sensitive parts (like LayerNorm and attention score calculations) stay in BF16 or FP32 to maintain model stability.
 *   Uses fine-grained scaling factors to prevent loss of precision from activation outliers.
 
-### Key Innovations and Optimizations
+###  Innovations and Optimizations
 
 *   **Reinforcement Learning at Scale:** Kimi k1.5 uses advanced RL techniques (Long-CoT and Short-CoT reasoning) to improve problem-solving steps.
 *   **Long-Context Attention (MLA):** Uses Multi-Head Latent Attention (MLA) to compress Key-Value (KV) cache memory, allowing massive context lengths without running out of GPU memory.
@@ -62,8 +61,8 @@ Everything below comes from that technical report. Where I add a comment of my o
 | DP | Across nodes | Synchronizes gradients efficiently across the entire cluster |
 
 ---
-
-### Three Connections to Course Concepts
+## Q:Connect at least three chapter concepts to what the real system did:
+## Ans:
 
 **1. Managing Long Context with Context Parallelism (CP)**  
 In our course exercises, we learned that standard Tensor Parallelism cannot handle massive context lengths like 128K because it only splits the hidden dimension. Kimi k1.5 applies Context Parallelism across nodes to split the sequence length directly, proving that CP is required for long-context models.
@@ -73,3 +72,5 @@ Just like the rule taught in class, Kimi k1.5 keeps Tensor Parallelism restricte
 
 **3. Expert Parallelism Bottlenecks and Routing**  
 In MoE architectures, Expert Parallelism introduces all-to-all communication overhead. Kimi k1.5 handles this by balancing expert workloads and using fast local NVLink transfers whenever possible, matching the MoE trade-offs discussed in our parallelism labs.
+
+By: Amjad althobaiti
