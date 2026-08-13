@@ -62,8 +62,7 @@ The extra 3.1 GB comes from temporary activations and the full block weights gat
 | **256 MB** | 39.95 ms | 6.7 GB/s | **6.7 GB/s** |
 | **512 MB** | 80.31 ms | 6.7 GB/s | **6.7 GB/s** |
 
-The measured speed was 6.7 GB/s, which is 134 times slower than NVLink because the Kaggle T4 GPUs use PCIe connection and host memory routing.
-Transfers also take twice as long because the all-reduce algorithm moves every piece of data across the link twice. 
+The measured speed was 6.7 GB/s, which is 134 times slower than NVLink and this gap happens because the Kaggle T4 GPUs do not use NVLink connection, forcing NCCL to route traffic over a much slower PCIe bus. Additionally, data often bounces through host memory, and the all-reduce algorithm moves every piece of data across the link twice.
 
 ## TP
 
